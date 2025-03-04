@@ -88,43 +88,39 @@ namespace GerenciamentoFutebol.DAO
 
         public List<Times> ListaTimes()
         {
-            List<Times> times = new List<Times>();
-
             try
             {
+                List<Times> times = new List<Times>();
 
-                var lista = "SELECT * FROM times ORDER BY nome_oficial ASC";
+                var sql = "SELECT * FROM times ORDER BY nome_oficial";
 
-                MySqlCommand comando = new MySqlCommand(lista, Conexao.Conectar());
-                using (MySqlDataReader dr = comando.ExecuteReader())
-                {
-                    while (dr.Read())
+                MySqlCommand comando = new MySqlCommand(sql, Conexao.Conectar());
+                MySqlDataReader reader = comando.ExecuteReader();
+
+                while (reader.Read())
                     {
                         Times time = new Times();
-                        time.idtime = dr.GetInt32("idtime");
-                        time.nome_oficial = dr.GetString("nome_oficial");
-                        time.nome_fantasia = dr.GetString("nome_fantasia");
-                        time.endereco = dr.GetString("endereco");
-                        time.dt_fundacao = dr.GetDateTime("dt_fundacao");
-                        time.escudo = dr.GetString("escudo");
-                        time.telefone = dr.GetString("telefone");
-                        time.email = dr.GetString("email");
-
-                        times.Add(time);
-
+                        time.idtime = reader.GetInt32("idtime");
+                        time.nome_oficial = reader.GetString("nome_oficial");
+                        time.nome_fantasia = reader.GetString("nome_fantasia");
+                        time.endereco = reader.GetString("endereco");
+                        time.dt_fundacao = reader.GetDateTime("dt_fundacao");
+                        time.escudo = reader.GetString("escudo");
+                        time.telefone = reader.GetString("telefone");
+                        time.email = reader.GetString("email");
+                        time.estadio = reader.GetString("estadio");
+                    times.Add(time);
                     }
-                }
-               
+                Conexao.FecharConexao();
+                return times;
 
-            }catch(Exception ex)
+            }
+            catch(Exception ex)
              {
                 throw new Exception("Erro ao listar os times " + ex.Message);
              }
-            finally
-            {
-                Conexao.FecharConexao();
-            }
-            return times;
+            
+           
 
         }
         
