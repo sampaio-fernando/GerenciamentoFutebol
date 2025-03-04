@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GerenciamentoFutebol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56c4007915857db6126fd7ebd5b6636b606dd4bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("GerenciamentoFutebol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GerenciamentoFutebol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

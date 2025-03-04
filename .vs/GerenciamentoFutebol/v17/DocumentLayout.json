@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sampa\\Documents\\POO\\GerenciamentoFutebol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|c:\\users\\sampa\\documents\\poo\\gerenciamentofutebol\\models\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|solutionrelative:models\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|c:\\users\\sampa\\documents\\poo\\gerenciamentofutebol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|c:\\users\\sampa\\documents\\poo\\gerenciamentofutebol\\dao\\timesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|solutionrelative:dao\\timesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|c:\\users\\sampa\\documents\\poo\\gerenciamentofutebol\\models\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18DD497-2786-4761-BAB9-AD03492C20C5}|GerenciamentoFutebol.csproj|solutionrelative:models\\times.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TimesDAO.cs",
               "DocumentMoniker": "C:\\Users\\sampa\\Documents\\POO\\GerenciamentoFutebol\\DAO\\TimesDAO.cs",
               "RelativeDocumentMoniker": "DAO\\TimesDAO.cs",
               "ToolTip": "C:\\Users\\sampa\\Documents\\POO\\GerenciamentoFutebol\\DAO\\TimesDAO.cs",
               "RelativeToolTip": "DAO\\TimesDAO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCUAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwFoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T01:34:57.343Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Times.cs",
               "DocumentMoniker": "C:\\Users\\sampa\\Documents\\POO\\GerenciamentoFutebol\\Models\\Times.cs",
               "RelativeDocumentMoniker": "Models\\Times.cs",
@@ -52,13 +53,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sampa\\Documents\\POO\\GerenciamentoFutebol\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\sampa\\Documents\\POO\\GerenciamentoFutebol\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwIEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T23:00:12.04Z",
               "EditorCaption": ""

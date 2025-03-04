@@ -34,3 +34,4 @@ C:\Users\sampa\Documents\POO\GerenciamentoFutebol\obj\Debug\net9.0\refint\Gerenc
 C:\Users\sampa\Documents\POO\GerenciamentoFutebol\obj\Debug\net9.0\GerenciamentoFutebol.pdb
 C:\Users\sampa\Documents\POO\GerenciamentoFutebol\obj\Debug\net9.0\GerenciamentoFutebol.genruntimeconfig.cache
 C:\Users\sampa\Documents\POO\GerenciamentoFutebol\obj\Debug\net9.0\ref\GerenciamentoFutebol.dll
+C:\Users\sampa\Documents\POO\GerenciamentoFutebol\obj\Debug\net9.0\GerenciamentoFutebol.sourcelink.json
